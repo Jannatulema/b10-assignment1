@@ -173,9 +173,138 @@
 
   }
 
+ 
+
+  /* Inspiration Styles */
+  .inspiration{
+    text-align: center;
+    width: 1140px;
+    height: auto;
+    left: 148px;
+    right: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48;
+    padding: 0;
+    
+
+  }
+
+  .inspiration-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    width: auto;
+    height: 37px;
+    gap: 24;
+    padding: 0;
+    margin: 24px 0px;
+  }
+  .inspiration-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    width: 852px;
+    height: 52px;
+    gap: 24;
+    padding: 0;
+    margin: 24px 0px;
+    opacity: 0.7;
+    text-align: center;
+  }
+  .inspiration-video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: auto;
+    height: 380px;
+    gap: 10;
+    padding: 32px;
+    margin: 48px 0px;
+
+  }
+
+
+  /* Next target styles */
+  .next-target{
+
+  }
+
+
+  /* support Styles */ 
+
+   main .support{
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    padding: 64px 48px 64px 48px;
+    gap: 32;
+    margin: 0 150px 0 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+
+   .support-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 16px 0px;
+  
+
+   }
+   .support-description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    gap: 16;
+    padding: 0;
+    margin: 16px 0;
+   }
+
+   div .support-input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: auto;
+    text-align: center;
+    gap: 10;
+    padding: 19px 20px 19px 20px;
+    margin: 0 16px;
+   }
+   div .support-input input[type="textarea"]{
+    color:rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    width: 313px;
+    height: 19px;
+    gap: 10;
+    padding: 19px 20px 19px 20px;
+    border-style: none;
+
+   }
+   div .support-input input[type="submit"]{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 57px;
+    gap: 10;
+    padding: 17px 20px 17px 20px;
+   }
+  
   /* Footer Styles */
 
-  footer{
+   footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
