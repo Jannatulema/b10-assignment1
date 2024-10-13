@@ -14,16 +14,17 @@
     border-right: none;
     
   }
-  .btn-container{
+  .btn-container {
     border-radius: 8px;
     background: rgb(13, 19, 33);
     width: 244px;
-    gap: 10;
+    gap: 32;
     padding: 21px 24px 21px 24px;
     margin: 32px 0px;
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
+    text-decoration: none;
   }
 
   /* Nav Styles */
@@ -230,7 +231,116 @@
 
   /* Next target styles */
   .next-target{
+    width: 1140px;
+    height: auto;
+    gap: 48;
+    padding: 0px;
+    margin: 111px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 
+  }
+  .targets{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1140px;
+    height: auto;
+    gap: 24;
+    padding: 0px;
+    margin: 48px 0px;
+  }
+  .targets a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+    gap: 24;
+    padding: 0px;
+    margin: 24px 0px;
+  } 
+  .target-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 852px;
+    height: auto;
+    gap: 24;
+    padding: 0px;
+    margin: 24px 0px;
+  }
+  .target-html{
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    gap: 32;
+    padding: 40px;
+    margin: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+  }
+  .target-html .target-description{
+    width: 284px;
+    height: 52px;
+    gap: 8;
+    padding: 0px;
+    margin: 8px 0px;
+    text-align: left;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .target-css{
+    height: 299px;
+    width: 364px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    gap: 32;
+    padding: 40px;
+    margin: 0px 24px;
+  }
+  .target-css .target-description{
+    width: 284px;
+    height: 52px;
+    gap: 8;
+    padding: 0px;
+    margin: 8px 0px;
+    text-align: left;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+
+  }
+  .target-js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    gap: 32;
+    padding: 40px;
+    margin: 0px 24px;
+    height: 299px;
+    width: 364px;
+
+  }
+
+  .target-js .target-description{
+    width: 284px;
+    height: 52px;
+    gap: 8;
+    padding: 0px;
+    margin: 8px 0px;
+    text-align: left;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
   }
 
 
